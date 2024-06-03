@@ -1,6 +1,5 @@
 
-
-const Category = () => {
+const Products = () => {
     return (
         <div>
             
@@ -8,4 +7,4 @@ const Category = () => {
     );
 };
 
-export default Category;
+export default Products;
