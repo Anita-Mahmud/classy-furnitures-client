@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -7,7 +7,8 @@ const Navbar = () => {
     {/* <li><NavLink to="">Shop</NavLink></li> */}
     <li><NavLink to="/about">About</NavLink></li>
     <li><NavLink to="/contact">Contact</NavLink></li>
-    {/* <li><NavLink to="">Signin</NavLink></li> */}
+   
+  
     </>
    
      return (
@@ -29,7 +30,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <Link to="/login" className="btn">Login</Link >
         </div>
       </div>
     );

@@ -6,8 +6,8 @@ const LatestProducts = () => {
       <h2 className="text-4xl font-bold text-center mb-8">
         Our Latest Products
       </h2>
-      <div className="grid grid-cols-6 gap-4">
-  <div className="col-start-2 col-span-4 border-2 border-sky-500  ">
+      <div className="grid grid-cols-6 gap-4 ">
+  <div className="col-start-2 col-span-4 justify-center border-2 border-sky-500  ">
     <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnVybml0dXJlfGVufDB8fDB8fHww" alt="" className="w-full h-96"/>
   </div>
   <div className="col-start-1 col-end-3 border-2 border-sky-500">
